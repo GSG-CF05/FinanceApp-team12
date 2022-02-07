@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+header h1 {
+  font-size: 1.5em;
+  color: #191d21;
+  margin-bottom: 4em;
+  padding-top: 1.5em;
+  font-weight: 900;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.land-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.land-text h2 {
+  font-size: 1.5em;
+  color: #191d21;
+  margin: 0;
+  margin-top: 1.7em;
+  padding-bottom: 0.625em;
+  text-align: center;
+}
+.land-text h3 {
+  font-size: 1.125em;
+  color: #191d21;
+
+  padding-bottom: 0.625em;
+  text-align: center;
+}
+.land-image img {
+  width: 414px;
+}
+
+.main-button {
+  border: none;
+  border-radius: 0.25em;
+  background-color: #6f6cd9;
+  color: white;
+  font-size: 0.9em;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 1.7em 10.5em;
+  margin-top: 8em;
+}
+.main-button:hover {
+  background-color: #00acc1;
+}
+main a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  margin: 3.25em 0;
+}
+
+.profile-container .profile-icon {
+  align-self: flex-end;
+}
+.profile-container .profile-name {
+  align-self: flex-end;
+  margin-left: 1em;
+}
+
+@media screen and (min-width: 1023px) {
+  main {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+  .land-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .land-text h2 {
+    font-size: 2em;
+    color: #191d21;
+    margin: 0;
+    padding-top: 3em;
+    padding-bottom: 0.625em;
+    text-align: center;
+  }
+  .land-text h3 {
+    font-size: 1.8em;
+    color: #191d21;
+    padding-bottom: 0.625em;
+    text-align: center;
+  }
+
+  .main-button {
+    margin-top: 4em;
+  }
+}
