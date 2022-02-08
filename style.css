@@ -65,7 +65,7 @@ main {
 .main-button:hover {
   background-color: #00acc1;
 }
-main a {
+.main-button a {
   text-decoration: none;
   color: white;
   text-align: center;
@@ -94,34 +94,20 @@ main a {
     justify-content: space-around;
   }
   .land-image img {
-    width: 550px;
-  }
-  .land-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 2em;
+    width: 520px;
   }
 
   .land-text h2 {
     font-size: 2em;
-    color: #191d21;
-    margin: 0;
-    padding-top: 3em;
-    padding-bottom: 1.5em;
-    text-align: center;
+    padding-top: 2.5em;
     font-weight: 900;
   }
   .land-text h3 {
     font-size: 1.8em;
-    color: rgb(25, 29, 33);
-    padding-bottom: 0.5em;
-    text-align: center;
     font-weight: 300;
   }
 
   .main-button {
-    margin-top: 10em;
-    padding: 1.7em 20.5em;
+    padding: 1.55em 15.5em;
   }
 }
