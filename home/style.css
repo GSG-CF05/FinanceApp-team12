@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Zen+Kurenaido&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  transition: 1s ease all;
+}
+.header-section{
+    width: 90%;
+}
+header {
+    display: flex;
+    background-color: #d0f1eb;
+    box-shadow: 0px 8px 16px -2px rgb(0 0 0 / 12%);
+    border-radius: 0px 0px 20px 20px;
+    justify-content: center;
+    align-items: flex-end;
+    position: none;
+    width: 100%;
+}
+.logo-Profile {
+    display: flex;
+    height: 93px;
+    align-items: center;
+    width: 100%;
+}
+.logo {
+    width: 100%;
+    padding: 0px 5px;
+}
+.logo h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 108%;
+}
+.logo p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.welcom-back{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.crash-coins {
+  position: none;
+  width: 132px;
+  height: 131px;
+  left: 13px;
+  top: 21px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 18px;
+
+}
+.balance {
+  display: flex;
+  padding-left: 15px;
+  padding-top: 15px;
+  position: static;
+  width: 323px;
+  height: 173px;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+  box-shadow: 0px 8px 16px -2px rgba(0, 0, 0, 0.12);
+  border-radius: 16px;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.your-balance {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  position: static;
+  width: 147px;
+  height: 100px;
+  justify-content: center;
+  margin-right: 10px;
+  margin-top: 30px;
+}
+.wallet {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 0px;
+
+  position: none;
+  width: 147px;
+  height: 44px;
+  left: 0px;
+  top: 57px;
+
+  border-radius: 10px;
+}
+.fal {
+  margin-left: 22px;
+}
+.fas {
+  position: none;
+  left: 10%;
+  right: 69.62%;
+  top: 0%;
+  bottom: 0%;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+.fas{
+    margin: 0px 5px;
+
+}
+
+.Principal-button {
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 95px;
+height: 132px;;
+background: #DED2F9;
+border-radius: 15px;
+justify-content: space-evenly;
+font-family: "Montserrat", sans-serif;
+
+}
+.request-button{
+    background: #D3E1FF;
+
+}
+.more-button{
+    background: #FDC9D2;
+}
+.send-massege {
+  font-family: Proxima Nova;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+section.principal {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0px;
+}
+
+.activity-section
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.last-activity h1{
+    font-weight: bolder;
+    font-size: 1.8rem;
+}
+
+.circle1{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.activities{
+display: flex;
+margin-top: 20px;
+
+
+}
+.activity-box
+{
+    display: flex;
+    background-color: #F4F7FA;
+    width: 315px;
+    height: 57px;
+    border-radius: 10px;
+    flex-direction: row;
+    padding: 10px;
+    margin: auto;
+    justify-content: flex-start;
+    flex-direction: row;
+    
+}
+.radiuse{
+    margin-top: 10px;
+}
+.shopping h2{
+    display: flex;
+    margin-left: 10px;
+}
+h3.doller {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.doller1{
+    display: flex;
+    margin-left: 180px;
+    margin-top: -20px;
+}
+.footer-box{
+    display: flex;
+    width: 375px;
+    height: 94px;
+    background-color: #FFFFFF;
+    justify-content:space-around;
+    align-items: center;
+    width: 100%;
+    
+    
+}
+.footer-box div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 3rem;
+    align-items: center;
+}
+/* Media query */
+@media (min-width:769px){
+    .Principal-button{
+        width: 31.333%;
+        margin: 0px 1%;
+    }
+    .balance{
+        width: 100%;
+        justify-content: center;
+    }
+    .activity-section {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: stretch;
+}
