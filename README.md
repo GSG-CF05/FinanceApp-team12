@@ -1,6 +1,6 @@
 # 📌Financy App
 
-Checkout the Final Desgin [Here] (https://gsg-cf05.github.io/FinanceApp-team12/)
+Checkout the Final Desgin [Here](https://gsg-cf05.github.io/FinanceApp-team12/)
 
 # 📌Team members:-
 
